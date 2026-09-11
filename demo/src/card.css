@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 28rem;
+    width: 25rem;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+.img{
+    height: 17rem;
+    width: auto;
+
+}
+.title{
+    font-size: 25px;
+    font-weight: 800;
+    color:antiquewhite;
+}
+.description{
+    color: black;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.btn{
+    height: 2rem;
+    width: 5rem;
+    background-color: gray;
+    color: aliceblue;
+    margin: 1rem;
+}
