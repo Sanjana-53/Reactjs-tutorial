@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 28rem;
-    width: 25rem;
+    height: 34rem;
+    width: 18rem;
     border-radius: 3%;
     overflow: hidden;
 }
@@ -37,4 +37,18 @@
     background-color: gray;
     color: aliceblue;
     margin: 1rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.Passed{
+    background-color: green;
+
+}
+.Fail{
+    background-color: red;
 }
