@@ -17,7 +17,7 @@ const Card = ({title, img, desc}) => { //props concept
                     </div>
                     <button className="btn">Click Me</button>
                 </div>
-                <div className={result}>{result} </div>
+                <div className={marks>40 ? "text-green-600":"text-red-800"}>{result} </div>
                 
             </div>
         </>

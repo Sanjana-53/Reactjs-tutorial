@@ -39,7 +39,8 @@
 
 // with turnury operator
 // import Product from "./Product";
-import Card from "./Card";
+// import Card from "./Card";
+import Events from "./Events";
 const App = ()=>{
   const arr=[{
     title: "Chess Board",
@@ -68,12 +69,13 @@ const App = ()=>{
 ];
   return(
     <>
-    <div className="main flex gap-3 md:bg-pink-500 text-black lg:bg-yellow-300 lg:text-red-400">
+    <div className="main flex gap-3">
+      
 
-    <Card title={arr[0].title} img = {arr[0].img} desc = {arr[0].desc}/>
+    {/* <Card title={arr[0].title} img = {arr[0].img} desc = {arr[0].desc}/>
     <Card title={arr[1].title} img = {arr[1].img} desc = {arr[1].desc}/>
-    <Card title={arr[2].title} img = {arr[2].img} desc = {arr[2].desc}/>
-    
+    <Card title={arr[2].title} img = {arr[2].img} desc = {arr[2].desc}/> */}
+    <Events/>
     </div>
 
     </>
@@ -109,3 +111,4 @@ const App = ()=>{
 // };
 
 export default App;
+
