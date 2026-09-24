@@ -1,6 +1,7 @@
 import "./events.css"
 const Events = ()=>{
     let count =0
+    let inp="e"
     const handleInc=()=>{
         count++
         console.log(count)
@@ -24,12 +25,14 @@ const Events = ()=>{
         <h1 onClick={handleInc}>+</h1>
         {count}
         <h1 onClick={handleDec}>-</h1>
-        
+
         <form onSubmit={handleSubmit}>    
         <input onChange={handleChange} className="input"/>
         <button>submit</button>
         </form>
+        {inp}
     </div>
     )
 }
 export default Events
+
