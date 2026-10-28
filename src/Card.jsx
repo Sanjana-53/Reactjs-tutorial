@@ -5,9 +5,9 @@ const Card = ({title, img, desc}) => { //props concept
     
     return (
         <>
-            <div className="container bg-green-900">
+            <div className="container bg-green-900 rounded-xl">
                 <h2>Card Components</h2>
-                <div className="card">
+                <div className="card flex flex-col">
                     <div>
                         <img className="img" src= {img} alt="Image-components" />
                     </div>
@@ -17,7 +17,7 @@ const Card = ({title, img, desc}) => { //props concept
                     </div>
                     <button className="btn">Click Me</button>
                 </div>
-                <div className={result}>{result} </div>
+                <div className={marks>40 ? "text-green-600":"text-red-800"}>{result} </div>
                 
             </div>
         </>
