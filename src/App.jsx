@@ -139,11 +139,37 @@
 // export default App;
 
 
-import Memo from "./Memo.jsx";
+// import Memo from "./Memo.jsx";
+
+// function App() {
+//   return <Memo />;
+// }
+
+// export default App;
+
+// import React from "react";
+// import Callback from "./Callback";
+
+// function App() {
+//   return (
+//     <div>
+//       <Callback />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+import React from "react";
+import Custom from "./Custom";
 
 function App() {
-  return <Memo />;
+  return (
+    <div>
+      <Custom />
+    </div>
+  );
 }
 
 export default App;
-
